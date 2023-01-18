@@ -1,0 +1,295 @@
+@media(max-width:1200px){
+.main__menu{
+    grid-template-columns: repeat(3, 370px);
+    gap: 15px;
+    padding: 26px;
+}
+.main__card{
+    width: 355px;
+}
+.main__img{
+    width: 320px;
+    height: 315px;
+}
+.location__title{
+    font-size: 45px;
+    padding: 12px;
+}
+}
+@media(max-width:992px){
+    .header__content_title{
+        font-size: 65px;
+    }
+    .header__content_subtitle{
+        font-size: 30px;
+    }
+    .header__content{
+        gap: 6px;
+    }
+    .header__price{
+        font-size: 45px;
+        padding: 30px 55px;
+        margin-top: 10px;
+    }
+    .header__btn{
+        padding: 15px 55px;
+    }
+    .header{
+        height: 650px;
+    }
+    .subnav{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .nav__list_link a{
+        padding: 22px 15px;
+    }
+    .main__card{
+        padding: 10px 10px;
+        width: 312px;
+    }
+    .main__menu{
+        padding: 10px;
+        grid-template-columns: repeat(3, 312px);
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .main__img{
+        width: 290px;
+        height: 290px;
+    }
+    .basket{
+        top: 119px;
+        left: 112px;
+    }
+    .map{
+        height: 400px;
+    }
+}
+@media(max-width:768px){
+    .subnav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .subnav__text{
+        font-size: 12px;
+    }
+    .subnav__list_link{
+        font-size: 12px;
+    }
+    .logo{
+        width: 24%;
+    }
+    .nav__list_link a{
+        font-size: 15px;
+        padding: 18px 14px;
+    }
+    .header__bg{
+        height: 100%;
+    }
+    .header__content_title {
+        font-size: 55px;
+    }
+    .header__content_subtitle {
+        font-size: 25px;
+    }
+    .header__content_text{
+        font-size: 15px;
+    }
+    .header__content{
+        height: 500px;
+    }
+    .header__price {
+        font-size: 35px;
+        padding: 18px 50px;
+    }
+    .header__btn {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+    .header {
+        height: 480px;
+    }
+    .main__content{
+        margin-top: 15px;
+    }
+    .main__list_link a{
+        font-size: 15px;
+    }
+    .padding {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .main__list{
+        gap: 22px;
+    }
+    .main__card_title{
+        font-size: 17px;
+    }
+    .main__card_text{
+        font-size: 15px;
+        margin-top: 6px;
+    }
+    .main__menu{
+        grid-template-columns: repeat(2, 365px);   
+    }   
+    .main__card{
+        width: 365px;
+    }
+    .main__img{
+        width: 340px;
+    }
+    .basket {
+        top: 117px;
+        left: 134px;
+    }
+    .location__title {
+        font-size: 35px;
+        padding: 4px;
+    }
+    .footer__content1 img {
+        padding-top: 18px;
+        padding-bottom: 50px;
+        width: 75%;
+    }
+    .footer__number {
+        font-size: 15px;
+        padding-bottom: 75px;
+        padding-top: 20px;
+    }
+    .footer__list_link a{
+        font-size: 16px;
+    }
+    .footer__list{
+    padding-bottom: 60px;
+    }
+
+}
+@media(max-width:576px){
+    .nav__list_link a {
+        font-size: 13px;
+        padding: 13px 9px;
+    }
+    .subnav__list_link {
+        font-size: 11px;
+    }
+    .subnav__text {
+        font-size: 11px;
+    }
+    .subnav__img {
+        width: 13px;
+        height: 13px;
+    }
+    .header {
+        height: 460px;
+    }
+    .header__content {
+        height: 460px;
+    }
+    .header__content_title {
+        font-size: 49px;
+        line-height: 40px;
+    }
+    .header__content_subtitle {
+        font-size: 24px;
+    }
+    .header__content_text {
+        font-size: 14px;
+    line-height: 17px;
+    }
+    .header__price {
+        font-size: 29px;
+        padding: 10px 37px;
+    }
+    .header__btn {
+        padding: 8px 30px;
+        font-size: 14px;
+    }
+    .main__list_link a {
+        font-size: 12px;
+    }
+    .padding {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .main__img {
+        width: 250px;
+        height: 250px;
+    }
+    .main__card {
+        width: 273px;
+    }
+    .main__menu {
+        grid-template-columns: repeat(2, 273px);
+    }
+    .main__card_text {
+        font-size: 14px;
+        margin-top: 5px;
+        line-height: 22px;
+    }
+    .basket {
+        top: 98px;
+        left: 93px;
+    }
+    .location__title {
+        font-size: 32px;
+        padding: 0px;
+    }
+    .map {
+        height: 340px;
+    }
+
+}
+@media(max-width:375px){
+    .subnav {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .nav__item{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo {
+        margin-top: 6px;
+        width: 34%;
+    }
+    .nav__list {
+        margin-bottom: 10px;
+        margin-top: 6px;
+    }
+    .header__content_title {
+        font-size: 47px;
+    }
+    .header__content_text {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .header__price {
+        font-size: 29px;
+        padding: 5px 29px;
+    }
+    .header__btn {
+        padding: 5px 28px;
+        font-size: 13px;
+    }
+    .main__content {
+        margin-top: 4px;
+    }
+    .main__list {
+        gap: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main__card {
+        width: 355px;
+    }
+    .main__img {
+        width: 332px;
+        height: 280px;
+    }
+    .main__menu{
+        grid-template-columns: repeat(1, 355px);
+    }
+
+}
